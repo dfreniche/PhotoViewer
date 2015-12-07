@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991F36451C0E2A77008AE460 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991F36441C0E2A77008AE460 /* PhotoCell.swift */; };
+		99319EEF1C0E362A0049F3F1 /* String+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99319EEE1C0E362A0049F3F1 /* String+LoadImage.swift */; };
 		994508051C03BB280097039F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994508041C03BB280097039F /* AppDelegate.swift */; };
-		994508071C03BB280097039F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994508061C03BB280097039F /* ViewController.swift */; };
+		994508071C03BB280097039F /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994508061C03BB280097039F /* PhotoListViewController.swift */; };
 		9945080A1C03BB280097039F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994508081C03BB280097039F /* Main.storyboard */; };
 		9945080C1C03BB280097039F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9945080B1C03BB280097039F /* Assets.xcassets */; };
 		9945080F1C03BB280097039F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9945080D1C03BB280097039F /* LaunchScreen.storyboard */; };
@@ -34,9 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		991F36441C0E2A77008AE460 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		99319EED1C0E32B20049F3F1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		99319EEE1C0E362A0049F3F1 /* String+LoadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LoadImage.swift"; sourceTree = "<group>"; };
 		994508011C03BB280097039F /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994508041C03BB280097039F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		994508061C03BB280097039F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		994508061C03BB280097039F /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
 		994508091C03BB280097039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9945080B1C03BB280097039F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9945080E1C03BB280097039F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,12 +100,14 @@
 		994508031C03BB280097039F /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				994508041C03BB280097039F /* AppDelegate.swift */,
 				99667DE31C0669BD0058A872 /* Assets */,
 				99667DE11C0669B10058A872 /* Controller */,
 				994508241C03BE820097039F /* Model */,
 				99667DE21C0669B70058A872 /* View */,
-				994508041C03BB280097039F /* AppDelegate.swift */,
 				994508101C03BB280097039F /* Info.plist */,
+				99319EED1C0E32B20049F3F1 /* MyPlayground.playground */,
+				99319EEE1C0E362A0049F3F1 /* String+LoadImage.swift */,
 			);
 			path = PhotoViewer;
 			sourceTree = "<group>";
@@ -140,7 +147,7 @@
 		99667DE11C0669B10058A872 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				994508061C03BB280097039F /* ViewController.swift */,
+				994508061C03BB280097039F /* PhotoListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -149,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				994508081C03BB280097039F /* Main.storyboard */,
+				991F36441C0E2A77008AE460 /* PhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,8 +275,10 @@
 				99667DD71C0659160058A872 /* CollectionProtocol.swift in Sources */,
 				99667DD91C065A840058A872 /* PhotoList.swift in Sources */,
 				994508261C03BED00097039F /* Photo.swift in Sources */,
-				994508071C03BB280097039F /* ViewController.swift in Sources */,
+				994508071C03BB280097039F /* PhotoListViewController.swift in Sources */,
 				99667DDC1C065F770058A872 /* APIWrapper500pxProtocol.swift in Sources */,
+				991F36451C0E2A77008AE460 /* PhotoCell.swift in Sources */,
+				99319EEF1C0E362A0049F3F1 /* String+LoadImage.swift in Sources */,
 				99667DE51C066AFA0058A872 /* README.md in Sources */,
 				99667DDE1C0660FE0058A872 /* APIWrapper500pxMock.swift in Sources */,
 				994508051C03BB280097039F /* AppDelegate.swift in Sources */,
